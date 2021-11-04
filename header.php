@@ -25,11 +25,11 @@
 <body>
 	<?php wp_body_open(); ?>
 
-	<nav class="pres-nav-wrapper">
+	<!--nav class="pres-nav-wrapper">
 		<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'presidents-project' ); ?></a>
 
 		<div class="pres-nav__title">
-			<h1 ><a href='<?php echo get_site_url(); ?>'>The Presidents</a></h1>
+			<h1 ><a href='<?php // echo get_site_url(); ?>'>The Presidents</a></h1>
 		</div>
 
-	</nav>
+	</nav-->

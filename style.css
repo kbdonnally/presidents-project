@@ -1175,3 +1175,18 @@ body a {
 .nav-links a:hover, .nav-links a:focus {
   color: #5465FF;
 }
+
+/* Front Page Timeline Styles: */
+ul.tl-entries-wrapper {
+  margin-left: 0;
+  list-style-type: none;
+}
+
+li.tl-entry {
+  border: 2px solid black;
+}
+
+.tl-entry__img img {
+  max-height: 300px;
+  width: auto;
+}
