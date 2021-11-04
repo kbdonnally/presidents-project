@@ -12,9 +12,12 @@
 body {
 	box-sizing: border-box;
 	margin: 0;
-	font-family: $lato;
+	font-family: $poppins;
 	p {
 		line-height: 1.5;
+	}
+	a {
+		text-decoration: none;
 	}
 }
 
