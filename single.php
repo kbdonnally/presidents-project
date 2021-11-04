@@ -16,6 +16,14 @@ get_header();
 		while ( have_posts() ) :
 			the_post();
 
+			the_field('party');
+			the_field('elections');
+			the_field('age');
+			the_field('served_from');
+			echo ' to ';
+			the_field('served_until');
+			the_field('vice_president');
+
 			get_template_part( 'template-parts/content', get_post_type() );
 
 			the_post_navigation(
@@ -36,5 +44,4 @@ get_header();
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();
