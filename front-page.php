@@ -6,7 +6,7 @@
 		<h2><?php bloginfo('description'); ?></h2>
 	</section>
 
-	<section class="front-page-tl">
+	<section class="front-page-entries">
 		<ul class="tl-entries-wrapper">
 		<?php
 		$p = new WP_Query(array(
